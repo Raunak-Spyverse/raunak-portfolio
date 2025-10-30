@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raunak's Portfolio - A passionate developer based in India specializing in web design, data science, and cybersecurity.">
+    <meta name="keywords" content="Raunak, Portfolio, Developer, Web Design, Data Science, Cybersecurity">
+    <meta name="author" content="Raunak">
+    <title>Raunak's Portfolio | Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav aria-label="Main Navigation">
+        <a href="#" class="logo"><span>Raunak</span></a>
+        <ul class="links">
+            <li><a href="#home" aria-label="Home">Home</a></li>
+            <li><a href="#about" aria-label="About">About</a></li>
+            <li><a href="#services" aria-label="Services">Services</a></li>
+            <li><a href="#contact" aria-label="Contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" aria-label="Toggle navigation" id="menu">
+            <i class="bx bx-menu-alt-right"></i>
+        </button>
+        <a href="#contact" class="btn" aria-label="Contact Me">Contact Me</a>
+    </nav>
+
+    <section id="home" aria-label="Home Section">
+        <img src="me.jpg" alt="Raunak's Profile Image" class="profile-image">
+        <div class="info-box">
+            <h1><span>Hello, I'm Raunak</span></h1>
+            <h2><span>Developer</span> based in India</h2>
+            <p>I'm a passionate developer specializing in web design, data science, and cybersecurity. Let's build something amazing together!</p>
+        </div>
+        <div class="btn-box">
+            <a href="#contact" class="btn" aria-label="Hire Me">Hire Me</a>
+            <a href="#contact" class="btn" aria-label="Contact Me">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" aria-label="About Section">
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>I'm a dedicated developer with a strong foundation in web technologies, programming languages, and problem-solving. I love creating efficient and scalable solutions.</p>
+            </div>
+            <h2><span>Skills</span></h2>
+            <div class="skills">
+                <ul>
+                    <li><i class='bx bx-chevron-right'></i> HTML</li>
+                    <li><i class='bx bx-chevron-right'></i> CSS</li>
+                    <li><i class='bx bx-chevron-right'></i> JavaScript</li>
+                </ul>
+                <ul>
+                    <li><i class='bx bx-chevron-right'></i> Java</li>
+                    <li><i class='bx bx-chevron-right'></i> C++</li>
+                    <li><i class='bx bx-chevron-right'></i> Python</li>
+                </ul>
+            </div>
+        </div>
+        <img src="me.jpg" alt="Raunak's Image" class="about-image">
+    </section>
+
+    <section id="services" aria-label="Services Section">
+        <h1 class="header"><span>Services</span></h1>
+        <div class="services-container">
+            <div class="box">
+                <h2><span>Web Design</span></h2>
+                <p>Creating responsive and user-friendly websites tailored to your needs.</p>
+                <img src="web-design.jpg" alt="">
+            </div>
+            <div class="box">
+                <h2><span>Data Science</span></h2>
+                <p>Analyzing and interpreting complex data to drive decision-making.</p>
+                <img src="ai.jpg" alt="">
+            </div>
+            <div class="box">
+                <h2><span>Cybersecurity</span></h2>
+                <p>Protecting your systems and data from potential threats.</p>
+                <img src="cybersecure.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<section id="contact" aria-label="Contact Section">
+    <h1 class="header"><span>Contact</span></h1>
+    <form action="#" method="post" aria-label="Contact Form">
+        <div class="input-box">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+        </div>
+        <div class="input-box">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        </div>
+        <div class="input-box message-box">
+            <label for="message">Your Message</label>
+            <input type="message" id="message" name="message" placeholder="Enter Your Message" required>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</section>
+
+    <footer aria-label="Footer">
+        <div class="col-left">
+            <div class="col-box">
+                <i class='bx bxs-location-plus'></i>
+                <span>Seal Lane, Kolkata, West Bengal</span>
+            </div>
+            <div class="col-box">
+                <i class='bx bxs-phone'></i>
+                <span>+91 8981640411</span>
+            </div>
+            <div class="col-box">
+                <i class='bx bxs-envelope'></i>
+                <span>raunakpathakiit38@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-right">
+            <h2>About My Services</h2>
+            <p>I offer a range of services including web design, data science, and cybersecurity to help you achieve your goals.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
